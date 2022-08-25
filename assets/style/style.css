@@ -9,18 +9,25 @@ body{
 
 }
 /* /----------------------------------Main Window------------------------------------/ */
+
+/* main{
+    color: #ece3d9;
+} */
+
 abbr{
     text-decoration: none;
 }
 header{
     position: fixed;
-    height: 10vh;
+    height: 100vh;
     top: 0;
     display: flex;
-    background-color: rgba(0,0,0,0.2);
-    width:100vw;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid red;
+    width:21vw;
     justify-content: right;
     z-index: 10;
+    
 }
 .naviLink0 li a{
     text-decoration: none;
@@ -29,26 +36,30 @@ header{
 }
 .naviLink0 li{
     position: relative;
-    top: 10px;
-    right: 50px;
+    top: 130px;
+    left: 20px;
     display: inline-block;
+   
 }
 .naviLink0 button{
-    filter: drop-shadow(10px 10px 10px black);
+    /* filter: drop-shadow(10px 10px 10px black); */
     background-color: white;
     padding: 7px 50px;
     font-size: 15px;
-    border-radius: 7px;
+    /* border-radius: 7px; */
     margin: 0 10px;
+    
 }
 
 .naviLink0 button:hover {
         cursor: pointer;
-        background-color: #f24600;
+        background-color: #c558f0;
         width: 13vw;
         height: 7vh;
         font-family: 'Rajdhani', sans-serif;   
 }
+
+
 
 button:hover {
     cursor: pointer;
@@ -59,7 +70,7 @@ button:hover {
 #home{
     height: 5vh;
     width: 3.6vw;
-    box-shadow: -1px 1px 10px -1px black;
+    /* box-shadow: -1px 1px 10px -1px black; */
     background-color: white;
     border-radius: 8px;
     left: 17px;
@@ -69,7 +80,7 @@ button:hover {
 #small-rectangle{
     height: 4.8vh;
     width: 3.6vw;
-    box-shadow: -1px 1px 10px -1px black;
+    /* box-shadow: -1px 1px 10px -1px black; */
     background-color: white;
     border-radius: 8px;
     top: 16px;
@@ -289,7 +300,7 @@ button:hover{
     font-family: 'Rajdhani', sans-serif;   
 }
 
-.main_page {
+/* .main_page {
     background-image: url("../images/head  pic.jpg");
     background-size: cover;
     background-position: center;
@@ -297,7 +308,7 @@ button:hover{
     width: 100%;
     top: 0;
     height: 95vh;
-}
+} */
 audio {
     position: relative;
     margin: 100px 5% auto 5%;
@@ -308,6 +319,7 @@ audio {
     border-color: dimgrey;
     top: 5px;
 }
+
 
 /* /----------------------------------1 st Page(Motivate word)------------------------------------/ */
 
