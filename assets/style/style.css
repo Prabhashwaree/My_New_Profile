@@ -37,7 +37,7 @@ header{
 .naviLink0 li{
     position: relative;
     top: 130px;
-    left: 20px;
+    left: 35px;
     display: inline-block;
    
 }
@@ -47,14 +47,21 @@ header{
     padding: 7px 50px;
     font-size: 15px;
     /* border-radius: 7px; */
+    width: 14vw;
+    height: 6vh;
     margin: 0 10px;
+    border: none;
+    border-bottom: 1px solid rgb(228, 222, 222);
+    text-align: left;
+
+    
     
 }
 
 .naviLink0 button:hover {
         cursor: pointer;
         background-color: #c558f0;
-        width: 13vw;
+        width: 17vw;
         height: 7vh;
         font-family: 'Rajdhani', sans-serif;   
 }
