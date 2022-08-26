@@ -37,7 +37,7 @@ header{
 .naviLink0 li{
     position: relative;
     top: 130px;
-    left: 35px;
+    left: 50px;
     display: inline-block;
    
 }
@@ -47,7 +47,7 @@ header{
     padding: 7px 50px;
     font-size: 15px;
     /* border-radius: 7px; */
-    width: 14vw;
+    width: 13vw;
     height: 6vh;
     margin: 0 10px;
     border: none;
