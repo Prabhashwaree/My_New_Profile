@@ -330,6 +330,7 @@ button:hover{
     top: 0;
     height: 70vh;
     background-image: linear-gradient(to right top, #e54285, #d43c89, #c2378b, #af348d, #9b328d, #95246e, #891a53, #79163b, #591d16, #361e01, #1c1700, #050604);
+
 }
 audio {
     position: relative;
@@ -347,9 +348,9 @@ audio {
 
 #motivate-rectangle {
     top:0;
-    height: 40vh;
+    height: 50vh;
     position: relative;
-    background-color: white;
+    /* background-color: white; */
     /* border: 1px solid black; */
 }
 .Motivate-word{
@@ -391,16 +392,18 @@ figure {
 /* /----------------------------------2 st Page(About)------------------------------------/ */
 
 #about-Me{
-    height: 75vh;
+    height: 70vh;
     top: 0;
     position: relative;
-    background-color: #6e6e6e;
+    /* background-color: #6e6e6e; */
+    /* border: 1px solid red; */
 }
 #topic-About{
     width:20vw;
     height:6vh;
-    background-color:white;
-    top:-1px;
+    /* background-color:white; */
+    top:-15px;
+    left: 18%;
     position:relative;
 }
 #about-Me div{ 
@@ -415,18 +418,18 @@ figure {
 }
 #rectangle-shape{
     width:60vw;
-    height:42vh;
-    background-color:white;
-    top:-168px;
+    height:48vh;
+    /* background-color:white; */
+    top:30px;
     position:relative;
-    left:30%
+    left:25%
 }
 
 #hello{
     font-family: 'Playfair Display', serif;
-    font-size:75px;
-    top:-65px;
-    left:-40px;
+    font-size:50px;
+    top:-20px;
+    left:20px;
     position:absolute;
     text-shadow: 10px 10px 10px #000000;
     animation-name: word_move;
@@ -435,9 +438,11 @@ figure {
     animation-direction: alternate;
     animation-fill-mode: forwards;
     animation-delay: 2s;
+    color: linear-gradient(to right top, #e54285, #d43c89, #c2378b, #af348d, #9b328d, #95246e, #891a53, #79163b, #591d16, #361e01, #1c1700, #050604);
+
 }
 
-@keyframes word_move{
+/* @keyframes word_move{
     0%{
 
         filter: drop-shadow(10px 10px 10px rgb(255, 255, 255));
@@ -448,7 +453,7 @@ figure {
         color: rgb(4, 53, 4);
         filter: drop-shadow(10px 10px 10px rgb(238, 255, 0));  
     }
-} 
+}  */
 #rectangle-shape #about_details{
     left: 60px;
     top: 20%;
@@ -457,53 +462,56 @@ figure {
 
 #top{
     
-    width: 45vw;
+    width: 10vw;
     height: 2px;
-    border: 1px solid rgb(51, 43, 43);
+    border: 1px solid #e54285;
     top: 7%;
     position: absolute;
     left: 21%;
+    
 }
-#bottom{
+/* #bottom{
     width: 45vw;
     height: 2px;
     border: 1px solid rgb(51, 43, 43);
     bottom: 6%;
     position: absolute;
     left: 4%;
-}
+} */
 #left{
     width: 2px;
     height: 25vh;
-    border: 1px solid rgb(51, 43, 43);
+    border: 1px solid #9b328d;
     bottom: 6%;
     position: absolute;
     left: 2.5%;
 }
-#right{
+/* #right{
     width: 2px;
     height: 25vh;
     border: 1px solid rgb(51, 43, 43);
     top: 7%;
     position: absolute;
     right: 2.5%;
-}
+} */
 
 #navi_phone_gmail{
     right: 15%;
     position: absolute;
-    top:85%;
+    top:98%;
     bottom: 20px;  
 }
 #navi_phone_gmail a{
     text-decoration: none;
     color: black;
+    position: absolute;
+    left: -120px;
 } 
 #navi_phone_gmail img:nth-child(1){
     border-radius: 20%;
     background-color: white;
-    top: 6px;
-    position: relative;
+    top: 85%;
+    position: absolute;
     right: 10px;
 }
 #gmail{
@@ -511,7 +519,7 @@ figure {
     background-color: white;
     top: 7px;
     right: 10px;
-    position: relative;
+    position: absolute;
 }
 
 
