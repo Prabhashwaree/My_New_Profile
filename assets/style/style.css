@@ -241,23 +241,24 @@ button:hover {
     filter: drop-shadow(10px 10px 10px rgb(255, 255, 255));
     left: 96%;
     position: relative;
-    top: -45px;
+    top: -20px;
     font-size: 25px
+    
 }
 
 .sosial_media_links li a i:hover {
     cursor: pointer;
-    color: #f24600;
+    color: rgb(176, 67, 226);
     width: 20vw;
     height: 10vh;
 }
 #vertical_line1 {
     height: 15vh;
     width: 0.200vw;
-    background-color: white;
+    background-color: rgb(104, 98, 98);
     left: 96.6%;
     position: relative;
-    top: -55px;
+    top: 50px;
 }
 
 #vertical_line2 {
@@ -402,8 +403,8 @@ figure {
     width:20vw;
     height:6vh;
     /* background-color:white; */
-    top:-15px;
-    left: 18%;
+    top:20px;
+    left: 78%;
     position:relative;
 }
 #about-Me div{ 
@@ -420,7 +421,7 @@ figure {
     width:60vw;
     height:48vh;
     /* background-color:white; */
-    top:30px;
+    top:-57%;
     position:relative;
     left:25%
 }
@@ -434,7 +435,7 @@ figure {
     text-shadow: 10px 10px 10px #000000;
     animation-name: word_move;
     animation-duration: 5s;
-    animation-iteration-count: infinite;
+    animation-iteration-count: 2;
     animation-direction: alternate;
     animation-fill-mode: forwards;
     animation-delay: 2s;
@@ -442,18 +443,18 @@ figure {
 
 }
 
-/* @keyframes word_move{
+@keyframes word_move{
     0%{
 
         filter: drop-shadow(10px 10px 10px rgb(255, 255, 255));
     }
     100%{
-        top: 0%;
-        left: -15%;
-        color: rgb(4, 53, 4);
-        filter: drop-shadow(10px 10px 10px rgb(238, 255, 0));  
+       
+        left: -1%;
+        color: rgb(146, 49, 94);
+        filter: drop-shadow(10px 10px 10px rgb(95, 83, 94));  
     }
-}  */
+} 
 #rectangle-shape #about_details{
     left: 60px;
     top: 20%;
@@ -498,14 +499,14 @@ figure {
 #navi_phone_gmail{
     right: 15%;
     position: absolute;
-    top:98%;
+    top:90%;
     bottom: 20px;  
 }
 #navi_phone_gmail a{
     text-decoration: none;
     color: black;
     position: absolute;
-    left: -120px;
+    left: -70px;
 } 
 #navi_phone_gmail img:nth-child(1){
     border-radius: 20%;
