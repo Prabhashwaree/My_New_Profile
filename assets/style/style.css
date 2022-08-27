@@ -6,12 +6,23 @@
 
 body{
     max-width: 100vw;
+    background-color: #F0F0F0;
 
 }
 /* /----------------------------------Main Window------------------------------------/ */
 
 /* main{
     color: #ece3d9;
+} */
+
+/* #rectangalsideone{
+    background-color: red;
+    position: absolute;
+    top: 50px;
+    width: 50vw;
+    right:500px;
+    z-index: 2;
+
 } */
 
 abbr{
@@ -23,10 +34,11 @@ header{
     top: 0;
     display: flex;
     background-color: rgb(255, 255, 255);
-    border: 1px solid red;
+    /* border: 1px solid red; */
     width:21vw;
     justify-content: right;
     z-index: 10;
+    border-top-right-radius: 20px;
     
 }
 .naviLink0 li a{
@@ -36,7 +48,7 @@ header{
 }
 .naviLink0 li{
     position: relative;
-    top: 130px;
+    top: 135px;
     left: 50px;
     display: inline-block;
    
@@ -100,8 +112,8 @@ button:hover {
 #heroText {
     transform: translate(-50%, 50%);
     position: absolute;
-    top: 18%;
-    left: 26%;
+    top: 5%;
+    left: 75%;
     text-align: center;
     animation-name: move_word;
     animation-duration: 5s;
@@ -117,10 +129,11 @@ button:hover {
     filter: drop-shadow(10px 10px 10px rgb(255, 255, 255));
 }
 50%{
-    left: 30%;
+    left: 65%;
+    /* background-image: url("../images/head  mypic.jpeg"); */
 }
 50%{
-    left: 50%;
+    /* left: 50%; */
     opacity: 0;
     filter: drop-shadow(10px 10px 10px rgb(1, 4, 32));   
 }
@@ -135,6 +148,8 @@ button:hover {
 
 #name{
     font-size: 300%;
+    width: 650px;
+    /* border: 1px solid red; */
 }
 #heroText h1{
     font-family: 'Rajdhani', sans-serif;
@@ -181,7 +196,7 @@ button:hover {
     color: white;
     font-size: 160%;
     font-style: italic;
-    top: 160%;
+    top: 169%;
     left: 25%;
     position: absolute;
     font-weight: normal;
@@ -191,7 +206,7 @@ button:hover {
     text-shadow: 10px 10px 10px #000000;
 }
 #heroText h5{
-    top: 130%;
+    top: 139%;
     left: 37%;
     margin: 0;
     font-size: 200%;
@@ -307,24 +322,24 @@ button:hover{
     font-family: 'Rajdhani', sans-serif;   
 }
 
-/* .main_page {
-    background-image: url("../images/head  pic.jpg");
+.main_page {
+    /* background-image: url("../images/head  pic.jpg"); */
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    width: 100%;
     top: 0;
-    height: 95vh;
-} */
+    height: 70vh;
+    background-image: linear-gradient(to right top, #e54285, #d43c89, #c2378b, #af348d, #9b328d, #95246e, #891a53, #79163b, #591d16, #361e01, #1c1700, #050604);
+}
 audio {
     position: relative;
     margin: 100px 5% auto 5%;
     width: 18%;
     max-width: 300vw;
     height: 3vh;
-    left: 2%;
+    left: 14%;
     border-color: dimgrey;
-    top: 5px;
+    top: -90%;
 }
 
 
@@ -332,10 +347,14 @@ audio {
 
 #motivate-rectangle {
     top:0;
-    height: 60vh;
+    height: 40vh;
     position: relative;
     background-color: white;
     /* border: 1px solid black; */
+}
+.Motivate-word{
+    position: absolute;
+    left: 530px;
 }
 
 figure {
@@ -353,16 +372,16 @@ figure {
 #writer {
     font-size: 16px;
     bottom: 0;
-    left: 56%;
+    left: 62%;
     margin: auto;
-    top: 161%;
+    top: 91px;
     position: absolute;
     font-family: 'Red Hat Display', sans-serif;
     letter-spacing: 0.1vw;
 }
 #motivate-rectangle img{
-    left: 69%;
-    top: 19%;
+    left: 75%;
+    top:10%;
     transform: rotate(7deg);
     margin: 10px 0px;
     z-index:1;
@@ -1950,7 +1969,7 @@ filter: drop-shadow(15px 10px 15px black);
 footer{
     height: 28vh;
     width: 98.8vw;
-    background-color: #000000;
+    /* background-color: #000000; */
     /* border:1px solid black; */
     top: 0;
     margin-bottom: 0;
