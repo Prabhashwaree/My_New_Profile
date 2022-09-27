@@ -7,6 +7,7 @@
 body{
     max-width: 100vw;
     background-color: #F0F0F0;
+   
 
 }
 /* /----------------------------------Main Window------------------------------------/ */
@@ -72,7 +73,7 @@ header{
 
 .naviLink0 button:hover {
         cursor: pointer;
-        background-color: #c558f0;
+        background-color: #921631;
         width: 17vw;
         height: 7vh;
         font-family: 'Rajdhani', sans-serif;   
@@ -227,7 +228,7 @@ button:hover {
 }
 
 #ijse {
-    color: red;
+    color: #7a0e34;
     font-size: 100%;
     text-shadow: 10px 10px 10px #000000;
 
@@ -248,7 +249,7 @@ button:hover {
 
 .sosial_media_links li a i:hover {
     cursor: pointer;
-    color: rgb(176, 67, 226);
+    color: #cb2205;
     width: 20vw;
     height: 10vh;
 }
@@ -330,7 +331,8 @@ button:hover{
     background-repeat: no-repeat;
     top: 0;
     height: 70vh;
-    background-image: linear-gradient(to right top, #e54285, #d43c89, #c2378b, #af348d, #9b328d, #95246e, #891a53, #79163b, #591d16, #361e01, #1c1700, #050604);
+    /* background-image: linear-gradient(to right top, #e54285, #d43c89, #c2378b, #af348d, #9b328d, #95246e, #891a53, #79163b, #591d16, #361e01, #1c1700, #050604); */
+    background-color: #272525;
 
 }
 audio {
@@ -394,7 +396,7 @@ figure {
 
 #about-Me{
     height: 70vh;
-    top: 0;
+    top: -10px;
     position: relative;
     /* background-color: #6e6e6e; */
     /* border: 1px solid red; */
@@ -451,8 +453,8 @@ figure {
     100%{
        
         left: -1%;
-        color: rgb(146, 49, 94);
-        filter: drop-shadow(10px 10px 10px rgb(95, 83, 94));  
+        /* color: #cb2205; */
+        /* filter: drop-shadow(10px 10px 10px rgb(95, 83, 94));   */
     }
 } 
 #rectangle-shape #about_details{
@@ -531,9 +533,9 @@ figure {
     color: #000000;
     text-shadow: 10px 10px 10px #000000;
     font-style: normal;
-    left: 18%;
+    left: 390%;
     position: absolute;
-    top: 30%;
+    top: 310%;
 }
 #Assignment_Rectangle{
     width:20vw;
@@ -543,10 +545,10 @@ figure {
     position:relative;
 }
 #Assignment_big_rectangle{
-    top: 0;
+    top: -10px;
     height: 145vh;
     position: relative;
-    background-color: white;
+    /* background-color: white; */
 }
 
 .sec1{
@@ -592,17 +594,18 @@ h4{
 }
 
 #btn1_viewmore{
-    width:13vw;
+    width:50px;
     height:6vh;
-    background-color:rgb(103, 121, 119);
-    border:1px solid #9e9c06;
-    border-radius: 8px;
-    top:15%;
-    right: 13%;
+    /* background-color:rgb(103, 121, 119);
+    border:1px solid #9e9c06; */
+    /* border-radius: 8px; */
+    top:25%;
+    right: 1%;
+    border: none;
     position:absolute;
-    filter: drop-shadow(5px 10px 5px black); 
+    /* filter: drop-shadow(5px 10px 5px black);  */
 }
-#btn1_viewmore:hover{
+/* #btn1_viewmore:hover{
     width:13vw;
     height:7vh;
     right: 12%;
@@ -610,60 +613,66 @@ h4{
     top:14%;
     background-color:#9e9c06;
     position: absolute;
-}
+} */
 #rectangle_image1 img{
-    filter: drop-shadow(5px 10px 5px black);
-    top: 42%;
-    left: 49%;
+    /* filter: drop-shadow(5px 10px 5px black); */
+    top: 15%;
+    left: 74%;
     z-index: 1;
-    border-radius: 100%;
+    border-radius: 20px;
     position: absolute;
 }
 
 #rectangle_image1 a{
     text-decoration: none;
-    top: 58%;
+    top: 43%;
     left: 50%;
     z-index: 1;
     position: absolute;
+    font-size: 15;
     color: black;
     animation-name: image_move;
+    background-color: rgb(255, 255, 255);
+    width: 20%;
+    height: 4%;
     /* border: 2px solid black; */
 }
 
 #rectangle_image2 img{
-    filter: drop-shadow(5px 10px 5px black);
-    left: 20%;
+    /* filter: drop-shadow(5px 10px 5px black); */
+    /* filter: blur(1px); */
+    left: 26%;
     position: absolute;
-    top: 12%;
-    border-radius: 100%;
+    top: 15%;
+    border-radius: 20px;
 }
 
 #rectangle_image2 a{
     text-decoration: none;
-    top: 28%;
-    left: 21%;
+    top: 35.5%;
+    left: 34%;
     position: absolute;
-    color: black; 
+    color: white; 
     /* border: 2px solid black; */
 }
 #rectangle_image3 img{
-    filter: drop-shadow(5px 10px 5px black);
-    top: 30%;
-    left: 34%;
-    border-radius: 100%;
+    /* filter: drop-shadow(5px 10px 5px black); */
+    top: 15%;
+    left: 50%;
+    border-radius: 20px;
     position: absolute; 
 }
+
 #rectangle_image3 #link_assignment3{
     text-decoration: none;
-    top: 46%;
-    left: 35%;
+    top: 35.5%;
+    left: 61%;
     position: absolute;
-    color: black; 
+    color: white;  
     /* border: 2px solid black; */
 }
 #rectangle_image4 img{
-    filter: drop-shadow(5px 10px 5px black);
+    /* filter: drop-shadow(5px 10px 5px black); */
     top: 56%;
     left: 64%;
     z-index: 1;
@@ -672,12 +681,12 @@ h4{
 }
 #rectangle_image4 #link_assignment4{
     text-decoration: none;
-    top: 70%;
-    left: 65%;
+    top: 35.5%;
+    left: 85%;
     z-index: 1;
     /* border: 2px solid black; */
     position: absolute;
-    color: black; 
+    color: white;  
 }
 
 
