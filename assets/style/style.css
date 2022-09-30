@@ -843,7 +843,7 @@ filter: drop-shadow(5px 10px 5px rgb(17, 4, 56));
 }
 
 #experience_big_rectangle {
-    top: 0;
+    top: -555px;
     height: 120vh;
     position: relative;
     background-color: #ffffff;
@@ -1354,7 +1354,7 @@ filter: drop-shadow(5px 10px 5px rgb(17, 4, 56));
 }
 
 #Project_big_rectangle {
-    height: 85vh;
+    height: 75vh;
     position: relative;
     /* background-color: #6e6e6e; */
     top: -590px;
