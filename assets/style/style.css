@@ -837,27 +837,138 @@ filter: drop-shadow(5px 10px 5px rgb(17, 4, 56));
     color: #000000;
     text-shadow: 10px 10px 10px #000000;
     font-style: normal;
-    left: -2%;
+    left: 105%;
     position: relative;
-    top: 8px;
+    top: 50px;
 }
 
 #experience_big_rectangle {
-    top: -555px;
+    top: -525px;
     height: 120vh;
     position: relative;
-    background-color: #ffffff;
+    /* background-color: #ffffff; */
 }
 
 #experience_paragraph {
-    top: 60px;
-    left: 15%;
-    letter-spacing: 2px;
-    font-family: 'Rajdhani', sans-serif;
+    top: 40px;
+    left: 25%;
+    /* letter-spacing: 2px; */
+    /* font-family: 'Rajdhani', sans-serif; */
     font-size: 18px;
     position: absolute;
 
 }
+
+/* ---------------------------experience---------------------------------- */
+.experienceCore{
+ position: absolute;
+ left: 25%;
+ top: 110px;
+ width: 35%;
+ height: 65%;
+ background-color: #821531;
+ border-top-left-radius: 10%;
+ border-bottom-left-radius: 10%;
+ z-index: 2;
+ 
+}
+
+.experienceLine{
+    position: absolute;
+    left: 50%;
+    top: 48px;
+    width: 1%;
+    height: 80%;
+    background-color: #ffffff;
+    z-index: 2;
+}
+
+.bankDot{
+    position: absolute;
+    left: 55%;
+    top: 20%;
+    width: 2%;
+    height: 2%;
+    border-radius: 100%;
+    background-color: #ffffff; 
+}
+
+#Months_2019_06{
+    position: absolute;
+    left: 59%;
+    top: 19%;
+    color: white;
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: normal;
+
+}
+
+#I_worked_paragrapha{
+    position: absolute;
+    left: 59%;
+    top: 24%;
+    color: white;
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: 2px;
+}
+
+
+.helthministyDot{
+    position: absolute;
+    left: 42%;
+    top: 60%;
+    width: 2%;
+    height: 2%;
+    border-radius: 100%;
+    background-color: #ffffff;  
+}
+
+#Months_2020_10{
+    position: absolute;
+    left: 26%;
+    top: 59%;
+    color: white; 
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: normal;
+    text-align: right;
+}
+
+#I_worked_paragraphs1{
+    position: absolute;
+    left: 10%;
+    top: 63%;
+    color: white; 
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: normal;
+text-align: right;
+}
+
+
+/* ---------------------------Education---------------------------------- */
+#Education{
+    text-align: center;
+    color: #000000;
+    text-shadow: 10px 10px 10px #000000;
+    font-style: normal;
+    left: 38%;
+    position: relative;
+    top: -45px;
+
+}
+
+.EducationCore{
+    position: absolute;
+ left: 62%;
+ top: 110px;
+ width: 35%;
+ height: 50%;
+ background-color: #821531;
+ border-top-right-radius: 10%;
+ border-bottom-right-radius: 10%;
+ z-index: 2;
+}
+
+
 
 /* ------------------------------------------------ */
 .experience_step1 {
